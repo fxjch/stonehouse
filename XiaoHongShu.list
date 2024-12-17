@@ -1,0 +1,38 @@
+# NAME: XiaoHongShu
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:17:40
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xiaohongshu.com
+# Surge 小红书分流规则 (2024年最新)
+#[Rule]
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,imxiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhsgw.com
+DOMAIN-SUFFIX,xhscdn.net
+
+# IP 地址规则
+IP-CIDR,106.75.0.0/16,no-resolve
+IP-CIDR,118.184.0.0/16,no-resolve
+IP-CIDR,47.98.0.0/16,no-resolve
+
+# 小红书相关 API 域名
+DOMAIN-SUFFIX,xhsapi.com
+DOMAIN-SUFFIX,xhsdemos.com
+
+# 小红书视频 CDN 规则
+DOMAIN-SUFFIX,cdn-xiaohongshu.com
+DOMAIN-SUFFIX,shcdn.com
+
+# 强制拦截规则（如需使用广告屏蔽）
+DOMAIN-KEYWORD,xiaohongshu-ad,🚫拦截
+
+# 其他小红书国际/备用域名
+DOMAIN-SUFFIX,xhsintl.com
+DOMAIN-SUFFIX,xhskj.com
