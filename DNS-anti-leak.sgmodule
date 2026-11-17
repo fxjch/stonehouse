@@ -1,0 +1,10 @@
+#!name = DNS 防泄露
+#!desc = DoH 加密 DNS + 国内域名走系统 DNS；做成模块后换配置文件也不用重写
+
+[General]
+dns-server = system
+encrypted-dns-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+hijack-dns = *:53
+
+[Host]
+RULE-SET:https://raw.githubusercontent.com/fxjch/stonehouse/main/Domestic_Set.txt = server:system
