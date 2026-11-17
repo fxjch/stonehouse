@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "openai.com",
+        "chatgpt.com",
+        "oaistatic.com",
+        "oaiusercontent.com"
+      ],
+      "domain": [
+        "cdn.openaimerge.com",
+        "cdn.workos.com",
+        "forwarder.workos.com",
+        "images.workoscdn.com",
+        "workos.imgix.net",
+        "setup.workos.com",
+        "ct.sendgrid.net",
+        "oaistatsig.com",
+        "intercom.io",
+        "intercomcdn.com",
+        "js.intercomcdn.com",
+        "js.stripe.com",
+        "o207216.ingest.sentry.io",
+        "o33249.ingest.sentry.io",
+        "rum.browser-intake-datadoghq.com",
+        "challenges.cloudflare.com",
+        "humb.apple.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "anthropic.com",
+        "claude.ai",
+        "claudeusercontent.com"
+      ],
+      "domain": [
+        "claudeusercontent.com.cdn.cloudflare.net"
+      ]
+    },
+    {
+      "domain": [
+        "gemini.google.com",
+        "aistudio.google.com",
+        "ai.google.dev",
+        "generativelanguage.googleapis.com",
+        "makersuite.google.com"
+      ],
+      "domain_suffix": [
+        "deepmind.com",
+        "deepmind.google",
+        "gemini.googleusercontent.com"
+      ]
+    },
+    {
+      "domain": [
+        "copilot.microsoft.com",
+        "sydney.bing.com",
+        "copilot-proxy.githubusercontent.com",
+        "ai.microsoft.com",
+        "designer.microsoft.com"
+      ],
+      "domain_suffix": [
+        "copilot.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "perplexity.ai",
+        "pplx.ai",
+        "grok.com",
+        "x.ai",
+        "poe.com",
+        "character.ai",
+        "meta.ai",
+        "muse.ai",
+        "you.com",
+        "phind.com",
+        "genspark.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "huggingface.co",
+        "hf.co",
+        "hf.space",
+        "huggingfaceusercontent.com",
+        "replicate.com",
+        "fal.ai",
+        "openrouter.ai",
+        "groq.com",
+        "together.ai",
+        "fireworks.ai",
+        "deepinfra.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "midjourney.com",
+        "runwayml.com",
+        "runway.com",
+        "stability.ai",
+        "ideogram.ai",
+        "leonardo.ai",
+        "lumalabs.ai",
+        "lumalabs.com",
+        "pika.art",
+        "krea.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "elevenlabs.io",
+        "elevenlabs.com",
+        "suno.com",
+        "suno.ai",
+        "udio.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cursor.com",
+        "cursor.sh",
+        "cursorapi.com",
+        "windsurf.com",
+        "codeium.com",
+        "replit.com",
+        "v0.dev",
+        "bolt.new",
+        "lovable.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "grammarly.com",
+        "grammarly.ai",
+        "jasper.ai",
+        "writesonic.com",
+        "copy.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cohere.com",
+        "mistral.ai"
+      ]
+    }
+  ]
+}
